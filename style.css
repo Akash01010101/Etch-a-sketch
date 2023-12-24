@@ -1,0 +1,45 @@
+*{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1{
+    text-align: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.canvas-container{
+    display: flex;
+    justify-content: center;
+}
+#canvas{
+    display: grid;
+    width: 90%;
+    height: 700px;
+    border: 2px solid black;
+}
+.fixed-foot{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+.cell{
+    border: white 1px solid;
+   
+}
